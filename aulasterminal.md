@@ -109,3 +109,4 @@
 	* Ele serve pra localizar um arquivo no Linux
 	* O `-i` é um parâmetro pra ignorar o "case", ou seja, as maiúsculas e minúsculas.
 	* Exemplo: se o arquivo que eu quero achar é `oi.txt`, e eu não sei onde ele está, eu posso usar `locate oi.txt` para achar ele, mas se eu não sei se o "o" é maiúsculo ou não eu uso assim: `locate -i Oi.txt`, assim, sendo "Oi" ou "oi" ele vai achar do mesmo jeito. Vai no terminal e pratica pra você ver a funcionalidade!
+	* **Aviso:** Esse comando pode não vir instalado no seu sistema 😕. Para instalar, depende da sua distribuição. No caso em distribuições baseadas em Debian (como o Ubuntu), se usa o comando `apt.
