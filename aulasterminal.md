@@ -92,7 +92,7 @@
 		<TELA CHEIA COM MANUAL>
 		```
 		Desculpa, mas não tem como eu mostrar aqui como vai aparecer. A única coisa que eu posso te dizer é que você vai poder rolar com o mouse e para sair digite a tecla "q".
-	* `--help``
+	* `--help`
 		Ele é um parâmetro que faz a mesma coisa que o man, mas tem mais chance de mostrar coisas em português 😆.
 		```
 		$ ls --help
@@ -101,7 +101,7 @@
 		Desculpa, mas aqui é a mesma coisa do `man`, não tem como eu te dizer como vai aparecer, mas só te digo que lá tem a descrição de todos os parâmetros e argumentos que o comando pode receber. Ninguém decora aquilo lá! 😛
 * `cp`
 	* Esse leva dois argumentos: `cp <arquivo_para_copiar> <onde_vai_copiar>`
-* Ensinar `mv`
+* `mv`
 	* Ele serve para mover arquivos
 	* Ele também pode renomear arquivos
 	* Ele leva dois argumentos: `mv <arquivo_que_já_existe> <onde_ele_vai_passar_a_existir>`
