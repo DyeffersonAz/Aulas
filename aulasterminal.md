@@ -31,6 +31,7 @@
 * Parâmetros e Argumentos
 	Eles são diferentes, aqui vai a definição de cada um. Por elas você já vai entendendo a diferença.
 	* Argumento
+	
 		É aquilo que você dá de informação ao comando. Olha o exemplo:
 		```
 		$ <COMANDO> <ARGUMENTO>
@@ -43,6 +44,7 @@
 		```
 		Neste caso, `cd` é o comando e `Documentos/` é o argumento. Um comando pode ter vários argumentos, esses a gente vai ver ao decorrer do curso. 😅
 	* Parâmetro
+	
 		São aqueles *argumentos* que dão as configurações do comando. Eles são muitas vezes definidos com um sinal de menos (`-`). Ficou confuso? Olha aqui:
 		```
 		$ pwd
