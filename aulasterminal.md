@@ -65,22 +65,44 @@
 		```
 ## Aula 3
 
-* Ensinar `mkdir`
-	* Fazer pastas
-* Ensinar `rmdir`
-	* Remover pastas vazias
-* Ensinar `rm -r` (*Ensinar com docs*)
-	* Remover pastas que tem coisas dentro
-* Ensinar `man` e `--help`
-	* O `man` mostra como se fosse um documento
-	* O `--help` mostra a ajuda também, só que em português 😉
-* Ensinar `cp`
+* `mkdir`
+	* Esse comando serve para fazer pastas. Olha o exemplo:
+		```
+		$ pwd
+		/home/dyefferson/Documentos/
+		$ ls
+		oi.txt	tchau.txt  linux.txt	cachorro.png
+		$ mkdir projetos
+		$ ls
+		projetos/
+		oi.txt	tchau.txt  linux.txt	cachorro.png
+		```
+* `rmdir`
+	* Ele serve para remover pastas vazias. E só vazias, hein?
+* `rm -r`
+	* Ele serve para remover pastas que tem coisas dentro
+* `man` e `--help`
+	* `man`
+		Ele mostra a ajuda de um documento (geralmente em inglês):
+		```
+		$ man ls
+		<TELA CHEIA COM MANUAL>
+		```
+		Desculpa, mas não tem como eu mostrar aqui como vai aparecer. A única coisa que eu posso te dizer é que você vai poder rolar com o mouse e para sair digite a tecla "q".
+	* `--help``
+		Ele é um parâmetro que faz a mesma coisa que o man, mas tem mais chance de mostrar coisas em português 😆.
+		```
+		$ ls --help
+		<DOCUMENTAÇÃO DO LS>
+		```
+		Desculpa, mas aqui é a mesma coisa do `man`, não tem como eu te dizer como vai aparecer, mas só te digo que lá tem a descrição de todos os parâmetros e argumentos que o comando pode receber. Ninguém decora aquilo lá! 😛
+* `cp`
 	* Esse leva dois argumentos: `cp <arquivo_para_copiar> <onde_vai_copiar>`
 * Ensinar `mv`
-	* Ele move arquivos
+	* Ele serve para mover arquivos
 	* Ele também pode renomear arquivos
 	* Ele leva dois argumentos: `mv <arquivo_que_já_existe> <onde_ele_vai_passar_a_existir>`
-* Ensinar `locate`
-	* Usado pra localizar um arquivo no Linux
-	* O `-i` é pra ignorar o "case", ou seja, as maiúsculas e minúsculas.
-	* Exemplo: se o arquivo que eu quero achar é `oi.txt`, e eu não sei onde ele está, eu posso usar `locate oi.txt` para achar ele, mas e se eu não sei se o "o" é maiúsculo, eu uso assim: `locate -i Oi.txt`, assim, sendo "Oi" ou "oi" ele vai achar do mesmo jeito.
+* `locate`
+	* Ele serve pra localizar um arquivo no Linux
+	* O `-i` é um parâmetro pra ignorar o "case", ou seja, as maiúsculas e minúsculas.
+	* Exemplo: se o arquivo que eu quero achar é `oi.txt`, e eu não sei onde ele está, eu posso usar `locate oi.txt` para achar ele, mas se eu não sei se o "o" é maiúsculo ou não eu uso assim: `locate -i Oi.txt`, assim, sendo "Oi" ou "oi" ele vai achar do mesmo jeito. Vai no terminal e pratica pra você ver a funcionalidade!
