@@ -4,10 +4,10 @@
 
 * `pwd`
 	* Ele mostra o diretório atual, por exemplo:
-```
-$ pwd
-/home/dyefferson/
-```
+		```
+		$ pwd
+		/home/dyefferson/
+		```
 * `cd`
 	* Ele muda o diretório em que você está, por exemplo:
 		```
