@@ -116,3 +116,19 @@
 		$ sudo apt install locate
 		```
 		Este comando instala o `locate`. Vamos analisar isso depois, essa parte é um pouco mais avançada, veremos no decorrer da parte intermediária dele. Até o momento você só precisa saber que o `apt` instala programas em distribuições baseadas em Debian.😉
+
+# Comandos aprendidos até o momento:
+
+Comando | Para que serve | Parâmetros aprendidos | Exemplo
+:---: | ---: | :--- | :---:
+`pwd` | Listar lugar onde está trabalhando. | | `pwd`
+`cd` | Muda o diretório onde você está. | | `cd Documentos/`
+`ls` | Lista todos os arquivos e diretórios no diretório atual | `-a`: Lista arquivos escondidos também. | `ls -a`
+`touch` | Cria um arquivo. | | `touch linux.txt`
+`mkdir` | Cria um diretório. | | `mkdir projetos`
+`rmdir` | Remove um diretório | | `rmdir projetos`
+`rm` | Remove coisas | `-r`: Remove recursivamente, ou seja, pode remover pastas com seus arquivos dentro. | `rm -r projetos` ou `rm windows.txt`
+`man` | Mostra o manual de um comando | | `man ls`
+`cp` | Copia um arquivo | | `cp /home/dyefferson/linux.txt /home/dyefferson/Documentos/legal.txt`
+`mv` | Move ou renomeia um arquivo | | `mv /home/dyefferson/windows.txt /home/dyefferson/Documentos`
+`locate` | Localiza um arquivo | `-i`: Ignora as maiúsculas e minúsculas | `locate linux.txt`
