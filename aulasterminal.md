@@ -17,6 +17,52 @@
 		$ pwd
 		/home/dyefferson/Documentos/
 		```
+
+## Aula 2
+
+* `ls`
+	* Ele mostra a lista de coisas que existem onde você está, por exemplo:
+		```
+		$ pwd
+		/home/dyefferson/Documentos/
+		$ ls
+		oi.txt         tchau.txt       cachorro.png
+		```
+* Parâmetros e Argumentos
+	Eles são diferentes, aqui vai a definição de cada um. Por elas você já vai entendendo a diferença.
+	* Argumento
+		É aquilo que você dá de informação ao comando. Olha o exemplo:
+		```
+		$ <COMANDO> <ARGUMENTO>
+		```
+		Mas assim não dá pra entender, né? Olha lá com um comando de verdade:
+		```
+		$ pwd
+		/home/dyefferson/
+		$ cd Documentos/
+		```
+		Neste caso, `cd` é o comando e `Documentos/` é o argumento. Um comando pode ter vários argumentos, esses a gente vai ver ao decorrer do curso. 😅
+	* Parâmetro
+		São aqueles *argumentos* que dão as configurações do comando. Eles são muitas vezes definidos com um sinal de menos (`-`). Ficou confuso? Olha aqui:
+		```
+		$ pwd
+		/home/dyefferson/Documentos/
+		$ ls -a
+		.	..	oi.txt	tchau.txt	cachorro.png
+		```
+		Viu? O `ls` é um comando em que a gente deu um parâmetro `-a`, que serve pra configurar o `ls` pra te mostrar os arquivos escondidos. Para saber mais sobre isso, fique no aguardo para um *Curso de Linux*.
+
+* `touch`
+	* Esse comando serve pra criar um arquivo, olha aí:
+		```
+		$ pwd
+		/home/dyefferson/Documentos/
+		$ ls
+		oi.txt	tchau.txt	cachorro.png
+		$ touch linux.txt
+		$ ls
+		oi.txt	tchau.txt  linux.txt	cachorro.png
+		```
 ## Aula 3
 
 * Ensinar `mkdir`
