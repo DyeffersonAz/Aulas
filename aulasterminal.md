@@ -1,5 +1,22 @@
 # Lista de aulas de Terminal
 
+## Aula 1
+
+* `pwd`
+	* Ele mostra o diretório atual, por exemplo:
+```
+$ pwd
+/home/dyefferson/
+```
+* `cd`
+	* Ele muda o diretório em que você está, por exemplo:
+		```
+		$ pwd
+		/home/dyefferson/
+		$ cd Documentos/
+		$ pwd
+		/home/dyefferson/Documentos/
+		```
 ## Aula 3
 
 * Ensinar `mkdir`
