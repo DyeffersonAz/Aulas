@@ -87,7 +87,7 @@
 * `man` e `--help`
 	* `man`
 
-		Ele mostra a ajuda de um documento (geralmente em inglês):
+		Ele mostra a ajuda de um comando (geralmente em inglês):
 		```
 		$ man ls
 		<TELA CHEIA COM MANUAL>
@@ -115,7 +115,7 @@
 		```
 		$ sudo apt install locate
 		```
-		Este comando instala o `locate`. Vamos analisar isso depois, essa parte é um pouco mais avançada, veremos no decorrer da parte intermediária dele. Até o momento você só precisa saber que o `apt` instala programas em distribuições baseadas em Debian.😉
+		Este comando instala o `locate`. Vamos analisar isso depois, essa parte é um pouco mais avançada, veremos no decorrer da parte intermediária deste curso. Até o momento você só precisa saber que o `apt` instala programas em distribuições baseadas em Debian.😉
 
 # Comandos aprendidos até o momento:
 
