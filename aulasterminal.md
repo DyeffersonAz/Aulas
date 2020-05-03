@@ -86,6 +86,7 @@
 	* Ele serve para remover pastas que tem coisas dentro
 * `man` e `--help`
 	* `man`
+
 		Ele mostra a ajuda de um documento (geralmente em inglês):
 		```
 		$ man ls
@@ -93,6 +94,7 @@
 		```
 		Desculpa, mas não tem como eu mostrar aqui como vai aparecer. A única coisa que eu posso te dizer é que você vai poder rolar com o mouse e para sair digite a tecla "q".
 	* `--help`
+
 		Ele é um parâmetro que faz a mesma coisa que o man, mas tem mais chance de mostrar coisas em português 😆.
 		```
 		$ ls --help
