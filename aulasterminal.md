@@ -120,7 +120,7 @@
 # Comandos aprendidos até o momento:
 
 Comando | Para que serve | Parâmetros aprendidos | Exemplo
-:---: | ---: | :--- | :---:
+:---: | :---: | :---: | :---:
 `pwd` | Listar lugar onde está trabalhando. | | `pwd`
 `cd` | Muda o diretório onde você está. | | `cd Documentos/`
 `ls` | Lista todos os arquivos e diretórios no diretório atual | `-a`: Lista arquivos escondidos também. | `ls -a`
