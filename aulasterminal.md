@@ -29,6 +29,7 @@
 		oi.txt         tchau.txt       cachorro.png
 		```
 * Parâmetros e Argumentos
+
 	Eles são diferentes, aqui vai a definição de cada um. Por elas você já vai entendendo a diferença.
 	* Argumento
 	
