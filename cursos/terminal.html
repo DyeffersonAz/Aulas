@@ -1,0 +1,200 @@
+<h1 id="lista-de-aulas-de-terminal">Lista de aulas de Terminal</h1>
+<h2 id="aula-1">Aula 1</h2>
+<ul>
+<li><code>pwd</code><ul>
+<li>Ele mostra o diretório atual, por exemplo:<pre><code>  $ pwd
+  /<span class="hljs-built_in">home</span>/dyefferson/
+</code></pre></li>
+</ul>
+</li>
+<li><code>cd</code><ul>
+<li>Ele muda o diretório em que você está, por exemplo:<pre><code>  $ <span class="hljs-built_in">pwd</span>
+  /home/dyefferson/
+  $ <span class="hljs-built_in">cd</span> Documentos/
+  $ <span class="hljs-built_in">pwd</span>
+  /home/dyefferson/Documentos/
+</code></pre></li>
+</ul>
+</li>
+</ul>
+<h2 id="aula-2">Aula 2</h2>
+<ul>
+<li><code>ls</code><ul>
+<li>Ele mostra a lista de coisas que existem onde você está, por exemplo:<pre><code>  $ pwd
+  /home/dyefferson/Documentos/
+  $ ls
+  oi<span class="hljs-selector-class">.txt</span>         tchau<span class="hljs-selector-class">.txt</span>       cachorro.png
+</code></pre></li>
+</ul>
+</li>
+<li><p>Parâmetros e Argumentos</p>
+<p>  Eles são diferentes, aqui vai a definição de cada um. Por elas você já vai entendendo a diferença.</p>
+<ul>
+<li><p>Argumento</p>
+<p>  É aquilo que você dá de informação ao comando. Olha o exemplo:</p>
+<pre><code>  $ <span class="hljs-tag">&lt;<span class="hljs-name">COMANDO</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">ARGUMENTO</span>&gt;</span>
+</code></pre><p>  Mas assim não dá pra entender, né? Olha lá com um comando de verdade:</p>
+<pre><code>  $ <span class="hljs-built_in">pwd</span>
+  /home/dyefferson/
+  $ <span class="hljs-built_in">cd</span> Documentos/
+</code></pre><p>  Neste caso, <code>cd</code> é o comando e <code>Documentos/</code> é o argumento. Um comando pode ter vários argumentos, esses a gente vai ver ao decorrer do curso. 😅</p>
+</li>
+<li><p>Parâmetro</p>
+<p>  São aqueles <em>argumentos</em> que dão as configurações do comando. Eles são muitas vezes definidos com um sinal de menos (<code>-</code>). Ficou confuso? Olha aqui:</p>
+<pre><code>  $ pwd
+  /home/dyefferson/Documentos/
+  $ ls -<span class="hljs-selector-tag">a</span>
+  .    ..    oi<span class="hljs-selector-class">.txt</span>    tchau<span class="hljs-selector-class">.txt</span>    cachorro.png
+</code></pre><p>  Viu? O <code>ls</code> é um comando em que a gente deu um parâmetro <code>-a</code>, que serve pra configurar o <code>ls</code> pra te mostrar os arquivos escondidos. Para saber mais sobre isso, fique no aguardo para um <em>Curso de Linux</em>.</p>
+</li>
+</ul>
+</li>
+<li><p><code>touch</code></p>
+<ul>
+<li>Esse comando serve pra criar um arquivo, olha aí:<pre><code>  $ pwd
+  /home/dyefferson/Documentos/
+  $ ls
+  oi<span class="hljs-selector-class">.txt</span>    tchau<span class="hljs-selector-class">.txt</span>    cachorro<span class="hljs-selector-class">.png</span>
+  $ touch linux<span class="hljs-selector-class">.txt</span>
+  $ ls
+  oi<span class="hljs-selector-class">.txt</span>    tchau<span class="hljs-selector-class">.txt</span>  linux<span class="hljs-selector-class">.txt</span>    cachorro.png
+</code></pre>
+<h2 id="aula-3">Aula 3</h2>
+</li>
+</ul>
+</li>
+<li><p><code>mkdir</code></p>
+<ul>
+<li>Esse comando serve para fazer pastas. Olha o exemplo:<pre><code>  $ pwd
+  /home/dyefferson/Documentos/
+  $ ls
+  oi<span class="hljs-selector-class">.txt</span>    tchau<span class="hljs-selector-class">.txt</span>  linux<span class="hljs-selector-class">.txt</span>    cachorro<span class="hljs-selector-class">.png</span>
+  $ mkdir projetos
+  $ ls
+  projetos/
+  oi<span class="hljs-selector-class">.txt</span>    tchau<span class="hljs-selector-class">.txt</span>  linux<span class="hljs-selector-class">.txt</span>    cachorro.png
+</code></pre></li>
+</ul>
+</li>
+<li><code>rmdir</code><ul>
+<li>Ele serve para remover pastas vazias. E só vazias, hein?</li>
+</ul>
+</li>
+<li><code>rm -r</code><ul>
+<li>Ele serve para remover pastas que tem coisas dentro</li>
+</ul>
+</li>
+<li><p><code>man</code> e <code>--help</code></p>
+<ul>
+<li><p><code>man</code></p>
+<p>  Ele mostra a ajuda de um comando (geralmente em inglês):</p>
+<pre><code>  $ <span class="hljs-keyword">man</span> <span class="hljs-keyword">ls</span>
+  &lt;TELA CHEIA COM MANUAL&gt;
+</code></pre><p>  Desculpa, mas não tem como eu mostrar aqui como vai aparecer. A única coisa que eu posso te dizer é que você vai poder rolar com o mouse e para sair digite a tecla &quot;q&quot;.</p>
+</li>
+<li><p><code>--help</code></p>
+<p>  Ele é um parâmetro que faz a mesma coisa que o man, mas tem mais chance de mostrar coisas em português 😆.</p>
+<pre><code>  $ <span class="hljs-keyword">ls</span> --<span class="hljs-keyword">help</span>
+  &lt;DOCUMENTAÇÃO <span class="hljs-keyword">DO</span> <span class="hljs-keyword">LS</span>&gt;
+</code></pre><p>  Desculpa, mas aqui é a mesma coisa do <code>man</code>, não tem como eu te dizer como vai aparecer, mas só te digo que lá tem a descrição de todos os parâmetros e argumentos que o comando pode receber. Ninguém decora aquilo lá! 😛</p>
+</li>
+</ul>
+</li>
+<li><code>cp</code><ul>
+<li>Esse leva dois argumentos: <code>cp &lt;arquivo_para_copiar&gt; &lt;onde_vai_copiar&gt;</code></li>
+</ul>
+</li>
+<li><code>mv</code><ul>
+<li>Ele serve para mover arquivos</li>
+<li>Ele também pode renomear arquivos</li>
+<li>Ele leva dois argumentos: <code>mv &lt;arquivo_que_já_existe&gt; &lt;onde_ele_vai_passar_a_existir&gt;</code></li>
+</ul>
+</li>
+<li><code>locate</code><ul>
+<li>Ele serve pra localizar um arquivo no Linux</li>
+<li>O <code>-i</code> é um parâmetro pra ignorar o &quot;case&quot;, ou seja, as maiúsculas e minúsculas.</li>
+<li>Exemplo: se o arquivo que eu quero achar é <code>oi.txt</code>, e eu não sei onde ele está, eu posso usar <code>locate oi.txt</code> para achar ele, mas se eu não sei se o &quot;o&quot; é maiúsculo ou não eu uso assim: <code>locate -i Oi.txt</code>, assim, sendo &quot;Oi&quot; ou &quot;oi&quot; ele vai achar do mesmo jeito. Vai no terminal e pratica pra você ver a funcionalidade!</li>
+<li><strong>Aviso:</strong> Esse comando pode não vir instalado no seu sistema 😕. Para instalar, depende da sua distribuição. No caso em distribuições (Se você não sabe o que é isso, veja em breve num eventual <em>Curso de Linux</em>) baseadas em Debian (como o Ubuntu), se usa o comando <code>apt</code>:<pre><code>  $ sudo apt <span class="hljs-keyword">install</span> <span class="hljs-keyword">locate</span>
+</code></pre>  Este comando instala o <code>locate</code>. Vamos analisar isso depois, essa parte é um pouco mais avançada, veremos no decorrer da parte intermediária deste curso. Até o momento você só precisa saber que o <code>apt</code> instala programas em distribuições baseadas em Debian.😉</li>
+</ul>
+</li>
+</ul>
+<h1 id="comandos-aprendidos-at-o-momento-">Comandos aprendidos até o momento:</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Comando</th>
+<th style="text-align:center">Para que serve</th>
+<th style="text-align:center">Parâmetros aprendidos</th>
+<th style="text-align:center">Exemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><code>pwd</code></td>
+<td style="text-align:center">Listar lugar onde está trabalhando.</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><code>pwd</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>cd</code></td>
+<td style="text-align:center">Muda o diretório onde você está.</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><code>cd Documentos/</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>ls</code></td>
+<td style="text-align:center">Lista todos os arquivos e diretórios no diretório atual</td>
+<td style="text-align:center"><code>-a</code>: Lista arquivos escondidos também.</td>
+<td style="text-align:center"><code>ls -a</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>touch</code></td>
+<td style="text-align:center">Cria um arquivo.</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><code>touch linux.txt</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>mkdir</code></td>
+<td style="text-align:center">Cria um diretório.</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><code>mkdir projetos</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>rmdir</code></td>
+<td style="text-align:center">Remove um diretório</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><code>rmdir projetos</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>rm</code></td>
+<td style="text-align:center">Remove coisas</td>
+<td style="text-align:center"><code>-r</code>: Remove recursivamente, ou seja, pode remover pastas com seus arquivos dentro.</td>
+<td style="text-align:center"><code>rm -r projetos</code> ou <code>rm windows.txt</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>man</code></td>
+<td style="text-align:center">Mostra o manual de um comando</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><code>man ls</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>cp</code></td>
+<td style="text-align:center">Copia um arquivo</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><code>cp /home/dyefferson/linux.txt /home/dyefferson/Documentos/legal.txt</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>mv</code></td>
+<td style="text-align:center">Move ou renomeia um arquivo</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><code>mv /home/dyefferson/windows.txt /home/dyefferson/Documentos</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>locate</code></td>
+<td style="text-align:center">Localiza um arquivo</td>
+<td style="text-align:center"><code>-i</code>: Ignora as maiúsculas e minúsculas</td>
+<td style="text-align:center"><code>locate linux.txt</code></td>
+</tr>
+</tbody>
+</table>
