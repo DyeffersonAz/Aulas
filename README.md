@@ -1,2 +1,2 @@
 # Aulas
- Aqui eu dou minhas aulas para, principalmente, meu irmão.
+Aqui eu estou colocando aulas e material didático que estou produzindo por livre e espontânea vontade!
