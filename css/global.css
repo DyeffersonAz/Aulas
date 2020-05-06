@@ -1,0 +1,22 @@
+* {
+    font-family: 'Nimbus Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 112);
+}
+
+main {
+    background-color: lightgray;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 120%;
+}
