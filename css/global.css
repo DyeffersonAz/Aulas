@@ -1,5 +1,6 @@
 * {
     font-family: 'Nimbus Sans', sans-serif;
+    color: #292929;
 }
 
 main {
@@ -19,13 +20,29 @@ h2 {
 
 }
 
+h3 {
+    border-bottom: 2px dashed  lightgray;
+    width: 30%;
+}
+
 p {
     font-size: 120%;
 }
 
+a:hover {
+    border: 1px dashed lightgray;
+}
+
+code {
+    background: #f3f3f3;
+    border-radius: 5px;
+    font-family: monospace;
+    padding: 5px;
+}
+
 pre code {
     display: block;
-    background: #f6f8fa;
+    background: #f3f3f3;
     border-radius: 5px;
     width: 60%;
     font-family: monospace;
