@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Terminal - Aulas do Dyefferson</title>
+    <link rel="stylesheet" href="/css/global.css">
+</head>
+<body>
+    <main>
+        <h1>Curso de Terminal</h1>
+
+        <h2>Aula 1</h2>
+        <ul>
+            <li><code>pwd</code>
+                <ul>
+                    <li>Ele mostra o diretório atual por exemplo:
+                        <pre><code>
+    $ pwd
+    /home/dyefferson/
+                        </code></pre>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <code>cd</code>
+                <ul>
+                    <li>Ele muda o diretório em que você está, por exemplo:
+                        <pre><code>
+    $ pwd
+    /home/dyefferson/
+    $ cd Documentos/
+    $ pwd
+    /home/dyefferson/Documentos
+                        </code></pre>
+
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+        <h2>Aula 2</h2>
+        <ul>
+            <li>
+                <code>ls</code>
+
+                <ul>
+                    <li>Ele mostra a lista de coisas que existem onde você está, por exemplo:
+                        <pre><code>
+    $ pwd
+    /home/dyefferson/Documentos/
+    $ ls
+    oi.txt   tchau.txt
+                        </code></pre>
+                    </li>
+                </ul>
+            </li>
+
+            <li>Parâmetros e Argumentos 
+                
+                <p>Eles são diferentes, aqui vai a definição de cada um. Por elas você  já vai entender a diferença.</p>
+                
+                <ul>
+                    <li>
+                        Argumento
+
+                        <p>É aquilo que você dá de informação ao comando. Olha o exemplo:</p>
+                        <pre><code>
+    $ &lt;COMANDO&gt; &lt;ARGUMENTO&gt;
+                        </code></pre>
+                        
+                        <p>Mas assim não dá pra entender, né? Olha lá com um comando de verdade:</p>
+
+                        <pre><code>
+    $ pwd
+    /home/dyefferson/
+    $cd Documentos/
+                        </code></pre>
+
+                        <p>Neste caso, <code>cd</code> é o comando e <code>Documentos/</code> é o argumento. Um comando pode ter vários argumentos, esses a gente vai ver no decorrer do curso. 😅</p>
+                    </li>
+
+                    <li>Parâmetros
+                        <p>São aqueles <em>argumentos</em> que dão as configurações do comando. Eles são muitas vezes definidos com um sinal de menos (<code>-</code>). Ficou confuso? Olha aqui:</p>
+                        <pre><code>
+    $ pwd
+    /home/dyefferson/Documentos/
+    $ ls -a
+    .    ..      oi.txt   tchau.txt    chachorro.png
+                        </code></pre>
+
+                        <p>Viu? o <code>ls</code> é um comando em que a gente deu um parâmetro <code>-a</code>, que serve pra configurar o <code>ls</code> pra te mostrar os arquivos escondidos. Para saber mais sobre isso, fique no aguardo para um <i>Curso de Linux</i>.</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li><code>touch</code>
+                <ul>
+                    <li>Esse comando serve pra criar um arquivo, olha aí:
+                        <pre><code>
+    $ pwd
+    /home/dyefferson/Documentos/
+    $ ls
+    oi.txt   tchau.txt     cachorro.png
+    $ touch linux.txt
+    $ ls
+    oi.txt   tchau.txt   linux.txt     cachorro.png
+                        </code></pre>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
