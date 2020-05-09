@@ -1,6 +1,7 @@
 * {
     font-family: 'Nimbus Sans', sans-serif;
     color: #292929;
+    text-align: justify;
 }
 
 main {
@@ -43,4 +44,12 @@ pre code {
     width: 60%;
     font-family: monospace;
     overflow-x: scroll;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px dashed lightgray;
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 70%;
 }
